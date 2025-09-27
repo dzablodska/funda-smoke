@@ -1,0 +1,16 @@
+{
+  "name": "funda-home-cookie-check",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "debug": "playwright test --headed --slow-mo 600"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.4"
+  }
+}
